@@ -5,8 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var appRoutes = require('./routes/index');
+
 
 var app = express();
 
@@ -22,8 +22,20 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+app.use(function (err, req, res, next) {
+  if (err) {
+    res.json('error', {
+      message: err.message,
+      error: err
+    });
+  }
+  res.setHeaders('Access-Control-Allow-Origin', '*');
+  res.setHeaders('Access-Control-Allow-Methods', 'POST, GET, PATCH, DELETE');
+  next();
+});
+
+app.use('/', appRoutes);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -39,7 +51,7 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
-    res.render('error', {
+    res.json('error', {
       message: err.message,
       error: err
     });
@@ -50,7 +62,7 @@ if (app.get('env') === 'development') {
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);
-  res.render('error', {
+  res.json('error', {
     message: err.message,
     error: {}
   });
