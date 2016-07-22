@@ -15,12 +15,12 @@ export declare class ComponentsHelper {
      * to made this method working you need to add:
      * ```typescript
      *  @Component({
-     *   selector: 'my-app',
+     *   selector: 'my-src',
      *   ...
      *   })
      *  export class MyApp {
      *    constructor(viewContainerRef: ViewContainerRef) {
-     *        // A Default view container ref, usually the app root container ref.
+     *        // A Default view container ref, usually the src root container ref.
      *        // Has to be set manually until we can find a way to get it automatically.
      *        this.viewContainerRef = viewContainerRef;
      *      }

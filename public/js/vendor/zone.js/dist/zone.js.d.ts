@@ -38,12 +38,12 @@
  * Example: Suppose a browser page consist of application code as well as third-party
  * advertisement code. (These two code bases are independent, developed by different mutually
  * unaware developers.) The application code may be interested in doing global error handling and
- * so it configures the `app` zone to send all of the errors to the server for analysis, and then
- * executes the application in the `app` zone. The advertising code is interested in the same
+ * so it configures the `src` zone to send all of the errors to the server for analysis, and then
+ * executes the application in the `src` zone. The advertising code is interested in the same
  * error processing but it needs to send the errors to a different third-party. So it creates the
  * `ads` zone with a different error handler. Now both advertising as well as application code
  * create many asynchronous operations, but the [Zone] will ensure that all of the asynchronous
- * operations created from the application code will execute in `app` zone with its error
+ * operations created from the application code will execute in `src` zone with its error
  * handler and all of the advertisement code will execute in the `ads` zone with its error handler.
  * This will not only work for the async operations created directly, but also for all subsequent
  * asynchronous operations.

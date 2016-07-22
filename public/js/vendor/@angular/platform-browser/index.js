@@ -50,4 +50,4 @@ exports.WORKER_UI_LOCATION_PROVIDERS = location_providers_2.WORKER_UI_LOCATION_P
 __export(require('./src/worker_render'));
 __export(require('./src/worker_app'));
 __export(require('./private_export'));
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

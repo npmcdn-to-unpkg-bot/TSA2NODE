@@ -1838,7 +1838,7 @@ hook('instantiate', function(instantiate) {
 
   SystemJS.config({
     meta: {
-      './app.js': {}
+      './src.js': {}
     }
   });
 
@@ -2048,7 +2048,7 @@ SystemJSLoader.prototype.config = function(cfg) {
  *
  * SystemJS.packages = {
  *   jquery: {
- *     main: 'app.js', // when not set, package name is requested directly
+ *     main: 'src.js', // when not set, package name is requested directly
  *     format: 'amd',
  *     defaultExtension: 'ts', // defaults to 'js', can be set to false
  *     modules: {
@@ -2062,21 +2062,21 @@ SystemJSLoader.prototype.config = function(cfg) {
  *     map: {
  *        // map internal require('sizzle') to local require('./vendor/sizzle')
  *        sizzle: './vendor/sizzle.js',
- *        // map any internal or external require of 'jquery/vendor/another' to 'another/app.js'
- *        './vendor/another.js': './another/app.js',
+ *        // map any internal or external require of 'jquery/vendor/another' to 'another/src.js'
+ *        './vendor/another.js': './another/src.js',
  *        // test.js / test -> lib/test.js
  *        './test.js': './lib/test.js',
  *
  *        // environment-specific map configurations
- *        './app.js': {
+ *        './src.js': {
  *          '~browser': './index-node.js'
  *        }
  *     },
  *     // allows for setting package-prefixed depCache
  *     // keys are normalized module names relative to the package itself
  *     depCache: {
- *       // import 'package/app.js' loads in parallel package/lib/test.js,package/vendor/sizzle.js
- *       './app.js': ['./test'],
+ *       // import 'package/src.js' loads in parallel package/lib/test.js,package/vendor/sizzle.js
+ *       './src.js': ['./test'],
  *       './test.js': ['external-dep'],
  *       'external-dep/path.js': ['./another.js']
  *     }
@@ -2084,10 +2084,10 @@ SystemJSLoader.prototype.config = function(cfg) {
  * };
  *
  * Then:
- *   import 'jquery'                       -> jquery/app.js
+ *   import 'jquery'                       -> jquery/src.js
  *   import 'jquery/submodule'             -> jquery/submodule.js
  *   import 'jquery/submodule.ts'          -> jquery/submodule.ts loaded as typescript
- *   import 'jquery/vendor/another'        -> another/app.js
+ *   import 'jquery/vendor/another'        -> another/src.js
  *
  * Detailed Behaviours
  * - main can have a leading "./" can be added optionally
@@ -4742,7 +4742,7 @@ hookConstructor(function(constructor) {
  * The benefits of the function form is that paths are URL-normalized
  * supporting say
  *
- * loader.meta({ './app': { format: 'cjs' } });
+ * loader.meta({ './src': { format: 'cjs' } });
  *
  * Instead of needing to set against the absolute URL (https://site.com/app.js)
  *
@@ -4937,15 +4937,15 @@ hookConstructor(function(constructor) {
  *
  * eg:
  * SystemJS.depCache = {
- *  'app': ['normalized', 'deps'],
+ *  'src': ['normalized', 'deps'],
  *  'normalized': ['another'],
  *  'deps': ['tree']
  * };
  * 
- * SystemJS.import('app') 
+ * SystemJS.import('src')
  * // simultaneously starts loading all of:
  * // 'normalized', 'deps', 'another', 'tree'
- * // before "app" source is even loaded
+ * // before "src" source is even loaded
  *
  */
 

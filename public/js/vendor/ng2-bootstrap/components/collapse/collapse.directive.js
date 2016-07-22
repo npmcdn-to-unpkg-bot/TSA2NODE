@@ -14,8 +14,8 @@ var core_1 = require('@angular/core');
 // import {animation, style, animate, state, transition} from '@angular/core';
 /*@Directive({
   selector: '[collapse]',
-  // templateUrl: 'app/panel.html',
-  // styleUrls: ['app/panel.css'],
+  // templateUrl: 'src/panel.html',
+  // styleUrls: ['src/panel.css'],
   animations: [
     animation('active', [
       state('void', style({ height: 0 })),

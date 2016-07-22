@@ -20,7 +20,7 @@ export declare const controlGroupProvider: any;
  *
  * ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <div>
  *       <h2>Angular Control &amp; ControlGroup Example</h2>

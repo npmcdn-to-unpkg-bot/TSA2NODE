@@ -16,7 +16,7 @@ import { Response } from './static_response';
  * import {Http, HTTP_PROVIDERS} from '@angular/http';
  * import 'rxjs/add/operator/map'
  * @Component({
- *   selector: 'http-app',
+ *   selector: 'http-src',
  *   viewProviders: [HTTP_PROVIDERS],
  *   templateUrl: 'people.html'
  * })

@@ -549,7 +549,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   providers: [OtherService],
      *   template: `
      *     Parent: <parent-cmp></parent-cmp>
@@ -1542,7 +1542,7 @@ var __extends = (this && this.__extends) || function (d, b) {
              * }
              *
              * @Component({
-             *   selector: 'app',
+             *   selector: 'src',
              *   template: `
              *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
              *   `,
@@ -1602,7 +1602,7 @@ var __extends = (this && this.__extends) || function (d, b) {
              * }
              *
              * @Component({
-             *   selector: 'app',
+             *   selector: 'src',
              *   template: `
              *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
              *     </interval-dir>
@@ -1830,7 +1830,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
      *   `,
@@ -1880,7 +1880,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
      *     </interval-dir>
@@ -1926,7 +1926,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<input [(ngModel)]="prop">`,
      *   directives: [FORM_DIRECTIVES, NgModelStatus]
      * })
@@ -1970,7 +1970,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<button counting>Increment</button>`,
      *   directives: [CountClicks]
      * })
@@ -2134,7 +2134,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <button (click)="value = value + 1">Change MyComponent</button>
      *     <my-cmp [my-prop]="value"></my-cmp>`,
@@ -2179,7 +2179,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <button (click)="hasChild = !hasChild">
      *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -2254,7 +2254,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <button (click)="list.push(list.length)">Push</button>
      *     <button (click)="list.pop()">Pop</button>
@@ -2296,7 +2296,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <button (click)="hasChild = !hasChild">
      *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -2405,7 +2405,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <parent-cmp>
      *       <child-cmp where="content"></child-cmp>
@@ -2455,7 +2455,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <parent-cmp>
      *       <button (click)="hasContent = !hasContent">Toggle content child</button>
@@ -2511,7 +2511,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<parent-cmp></parent-cmp>`,
      *   directives: [ParentComponent]
      * })
@@ -2565,7 +2565,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<parent-cmp></parent-cmp>`,
      *   directives: [ParentComponent]
      * })
@@ -3694,7 +3694,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
      *   `,
@@ -3736,7 +3736,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `
      *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
      *     </interval-dir>
@@ -3778,7 +3778,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<input [(ngModel)]="prop">`,
      *   directives: [FORM_DIRECTIVES, NgModelStatus]
      * })
@@ -3818,7 +3818,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * }
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   template: `<button counting>Increment</button>`,
      *   directives: [CountClicks]
      * })
@@ -4289,7 +4289,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      *
      * The default implementation of `ExceptionHandler` prints error messages to the `Console`. To
      * intercept error handling,
-     * write a custom exception handler that replaces this default as appropriate for your app.
+     * write a custom exception handler that replaces this default as appropriate for your src.
      *
      * ### Example
      *
@@ -8212,7 +8212,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * you don't add them to ensure that `wtfLeave` gets called. In production `wtfLeave` is a noop and
      * so try-finally block has no value. When debugging perf issues, skipping `wtfLeave`, do to
      * exception, will produce incorrect trace, but presence of exception signifies logic error which
-     * needs to be fixed before the app should be profiled. Add try-finally only when you expect that
+     * needs to be fixed before the src should be profiled. Add try-finally only when you expect that
      * an exception is expected during normal execution while profiling.
      *
      * @experimental

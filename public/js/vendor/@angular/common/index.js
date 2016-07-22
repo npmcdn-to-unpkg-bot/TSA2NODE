@@ -16,4 +16,4 @@ __export(require('./src/common_directives'));
 __export(require('./src/location'));
 var localization_1 = require('./src/localization');
 exports.NgLocalization = localization_1.NgLocalization;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

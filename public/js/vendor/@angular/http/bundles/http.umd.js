@@ -1836,7 +1836,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * import {HTTP_PROVIDERS, Http} from '@angular/http';
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   providers: [HTTP_PROVIDERS],
      *   template: `
      *     <div>
@@ -2002,7 +2002,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      * import {JSONP_PROVIDERS, Jsonp} from '@angular/http';
      *
      * @Component({
-     *   selector: 'app',
+     *   selector: 'src',
      *   providers: [JSONP_PROVIDERS],
      *   template: `
      *     <div>

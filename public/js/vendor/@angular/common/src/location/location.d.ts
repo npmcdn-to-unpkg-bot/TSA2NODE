@@ -11,9 +11,9 @@ import { LocationStrategy } from './location_strategy';
  * `Location` is responsible for normalizing the URL against the application's base href.
  * A normalized URL is absolute from the URL host, includes the application's base href, and has no
  * trailing slash:
- * - `/my/app/user/123` is normalized
- * - `my/app/user/123` **is not** normalized
- * - `/my/app/user/123/` **is not** normalized
+ * - `/my/src/user/123` is normalized
+ * - `my/src/user/123` **is not** normalized
+ * - `/my/src/user/123/` **is not** normalized
  *
  * ### Example
  *

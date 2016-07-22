@@ -23,7 +23,7 @@ class _ArrayLogger {
  *
  * The default implementation of `ExceptionHandler` prints error messages to the `Console`. To
  * intercept error handling,
- * write a custom exception handler that replaces this default as appropriate for your app.
+ * write a custom exception handler that replaces this default as appropriate for your src.
  *
  * ### Example
  *

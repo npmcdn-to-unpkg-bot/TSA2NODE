@@ -48,7 +48,7 @@ exports.CACHED_TEMPLATE_PROVIDER = [{ provide: compiler_1.XHR, useClass: xhr_cac
  * <html>
  *   <!-- load Angular script tags here. -->
  *   <body>
- *     <my-app>loading...</my-app>
+ *     <my-src>loading...</my-src>
  *   </body>
  * </html>
  * ```
@@ -64,13 +64,13 @@ exports.CACHED_TEMPLATE_PROVIDER = [{ provide: compiler_1.XHR, useClass: xhr_cac
  *
  * {@example core/ts/bootstrap/bootstrap.ts region='bootstrap'}
  *
- * When the app developer invokes `bootstrap()` with the root component `MyApp` as its
+ * When the src developer invokes `bootstrap()` with the root component `MyApp` as its
  * argument, Angular performs the following tasks:
  *
  *  1. It uses the component's `selector` property to locate the DOM element which needs
  *     to be upgraded into the angular component.
  *  2. It creates a new child injector (from the platform injector). Optionally, you can
- *     also override the injector configuration for an app by invoking `bootstrap` with the
+ *     also override the injector configuration for an src by invoking `bootstrap` with the
  *     `componentInjectableBindings` argument.
  *  3. It creates a new `Zone` and connects it to the angular application's change detection
  *     domain instance.
@@ -98,7 +98,7 @@ exports.CACHED_TEMPLATE_PROVIDER = [{ provide: compiler_1.XHR, useClass: xhr_cac
  * - `appComponentType`: The root component which should act as the application. This is
  *   a reference to a `Type` which is annotated with `@Component(...)`.
  * - `customProviders`: An additional set of providers that can be added to the
- *   app injector to override default injection behavior.
+ *   src injector to override default injection behavior.
  *
  * Returns a `Promise` of {@link ComponentRef}.
  *
@@ -125,7 +125,7 @@ function bootstrapWorkerUi(workerScriptUri, customProviders) {
         lang_1.isPresent(customProviders) ? customProviders : []
     ], platform_browser_1.workerUiPlatform().injector);
     // Return a promise so that we keep the same semantics as Dart,
-    // and we might want to wait for the app side to come up
+    // and we might want to wait for the src side to come up
     // in the future...
     return async_1.PromiseWrapper.resolve(app.get(core_1.ApplicationRef));
 }
@@ -156,4 +156,4 @@ function bootstrapWorkerApp(appComponentType, customProviders) {
     return core_1.coreLoadAndBootstrap(appComponentType, appInjector);
 }
 exports.bootstrapWorkerApp = bootstrapWorkerApp;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

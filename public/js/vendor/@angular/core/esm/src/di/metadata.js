@@ -229,7 +229,7 @@ export class SkipSelfMetadata {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   providers: [OtherService],
  *   template: `
  *     Parent: <parent-cmp></parent-cmp>

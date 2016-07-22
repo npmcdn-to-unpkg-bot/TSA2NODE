@@ -24,4 +24,4 @@ export { WORKER_UI_LOCATION_PROVIDERS } from './src/web_workers/ui/location_prov
 export * from './src/worker_render';
 export * from './src/worker_app';
 export * from './private_export';
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

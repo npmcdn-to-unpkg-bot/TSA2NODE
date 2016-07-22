@@ -1322,7 +1322,7 @@ export declare var Pipe: PipeMetadataFactory;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
  *   `,
@@ -1363,7 +1363,7 @@ export declare var Input: InputMetadataFactory;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
  *     </interval-dir>
@@ -1404,7 +1404,7 @@ export declare var Output: OutputMetadataFactory;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<input [(ngModel)]="prop">`,
  *   directives: [FORM_DIRECTIVES, NgModelStatus]
  * })
@@ -1443,7 +1443,7 @@ export declare var HostBinding: HostBindingMetadataFactory;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<button counting>Increment</button>`,
  *   directives: [CountClicks]
  * })

@@ -5,7 +5,7 @@ import { FormArray, FormControl, FormGroup } from './model';
  *
  * ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <form [formGroup]="loginForm">
  *       <p>Login <input formControlName="login"></p>

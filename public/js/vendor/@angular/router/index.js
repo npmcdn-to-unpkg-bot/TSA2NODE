@@ -43,4 +43,4 @@ exports.UrlTree = url_tree_1.UrlTree;
  * @stable
  */
 exports.ROUTER_DIRECTIVES = [router_outlet_1.RouterOutlet, router_link_1.RouterLink, router_link_1.RouterLinkWithHref, router_link_active_1.RouterLinkActive];
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

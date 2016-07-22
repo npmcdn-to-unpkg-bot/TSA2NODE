@@ -906,7 +906,7 @@ exports.Pipe = decorators_1.makeDecorator(directives_1.PipeMetadata);
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
  *   `,
@@ -948,7 +948,7 @@ exports.Input = decorators_1.makePropDecorator(directives_1.InputMetadata);
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
  *     </interval-dir>
@@ -990,7 +990,7 @@ exports.Output = decorators_1.makePropDecorator(directives_1.OutputMetadata);
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<input [(ngModel)]="prop">`,
  *   directives: [FORM_DIRECTIVES, NgModelStatus]
  * })
@@ -1030,7 +1030,7 @@ exports.HostBinding = decorators_1.makePropDecorator(directives_1.HostBindingMet
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<button counting>Increment</button>`,
  *   directives: [CountClicks]
  * })

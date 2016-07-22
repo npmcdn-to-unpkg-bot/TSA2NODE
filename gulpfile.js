@@ -5,8 +5,8 @@ var gulpSourcemaps = require('gulp-sourcemaps');
 
 var del = require('del');
 
-var appDev = 'src-web/app/';
-var appProd = 'public/js/app/';
+var appDev = 'src-web/src/';
+var appProd = 'public/js/src/';
 var vendor = 'public/js/vendor';
 
 var tsconfig = gulpTypescript.createProject('tsconfig.json');

@@ -36,7 +36,7 @@ export declare abstract class DynamicComponentLoader {
      * }
      *
      * @Component({
-     *   selector: 'my-app',
+     *   selector: 'my-src',
      *   template: 'Parent (<child id="child"></child>)'
      * })
      * class MyApp {
@@ -51,11 +51,11 @@ export declare abstract class DynamicComponentLoader {
      * Resulting DOM:
      *
      * ```
-     * <my-app>
+     * <my-src>
      *   Parent (
      *     <child id="child">Child</child>
      *   )
-     * </my-app>
+     * </my-src>
      * ```
      */
     abstract loadAsRoot(type: Type, overrideSelectorOrNode: string | any, injector: Injector, onDispose?: () => void, projectableNodes?: any[][]): Promise<ComponentRef<any>>;
@@ -80,7 +80,7 @@ export declare abstract class DynamicComponentLoader {
      * }
      *
      * @Component({
-     *   selector: 'my-app',
+     *   selector: 'my-src',
      *   template: 'Parent'
      * })
      * class MyApp {
@@ -95,7 +95,7 @@ export declare abstract class DynamicComponentLoader {
      * Resulting DOM:
      *
      * ```
-     * <my-app>Parent</my-app>
+     * <my-src>Parent</my-src>
      * <child-component>Child</child-component>
      * ```
      */

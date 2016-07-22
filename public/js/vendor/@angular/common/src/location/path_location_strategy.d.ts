@@ -13,9 +13,9 @@ import { PlatformLocation, UrlChangeListener } from './platform_location';
  * {@link APP_BASE_HREF} to a string representing the URL prefix that should
  * be preserved when generating and recognizing URLs.
  *
- * For instance, if you provide an `APP_BASE_HREF` of `'/my/app'` and call
+ * For instance, if you provide an `APP_BASE_HREF` of `'/my/src'` and call
  * `location.go('/foo')`, the browser's URL will become
- * `example.com/my/app/foo`.
+ * `example.com/my/src/foo`.
  *
  * ### Example
  *
@@ -44,7 +44,7 @@ import { PlatformLocation, UrlChangeListener } from './platform_location';
  *
  * bootstrap(AppCmp, [
  *   ROUTER_PROVIDERS, // includes binding to PathLocationStrategy
- *   {provide: APP_BASE_HREF, useValue: '/my/app'}
+ *   {provide: APP_BASE_HREF, useValue: '/my/src'}
  * ]);
  * ```
  *

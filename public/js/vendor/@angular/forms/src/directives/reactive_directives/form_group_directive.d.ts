@@ -24,7 +24,7 @@ export declare const formDirectiveProvider: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <div>
  *       <h2>Binding an existing form group</h2>

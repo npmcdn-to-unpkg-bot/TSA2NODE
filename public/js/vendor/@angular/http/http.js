@@ -64,7 +64,7 @@ exports.URLSearchParams = url_search_params_1.URLSearchParams;
  * import {HTTP_PROVIDERS, Http} from '@angular/http';
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   providers: [HTTP_PROVIDERS],
  *   template: `
  *     <div>
@@ -231,7 +231,7 @@ exports.HTTP_BINDINGS = exports.HTTP_PROVIDERS;
  * import {JSONP_PROVIDERS, Jsonp} from '@angular/http';
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   providers: [JSONP_PROVIDERS],
  *   template: `
  *     <div>

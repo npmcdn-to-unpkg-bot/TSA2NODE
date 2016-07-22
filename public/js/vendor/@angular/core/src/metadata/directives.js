@@ -445,7 +445,7 @@ var DirectiveMetadata = (function (_super) {
          * }
          *
          * @Component({
-         *   selector: 'app',
+         *   selector: 'src',
          *   template: `
          *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
          *   `,
@@ -505,7 +505,7 @@ var DirectiveMetadata = (function (_super) {
          * }
          *
          * @Component({
-         *   selector: 'app',
+         *   selector: 'src',
          *   template: `
          *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
          *     </interval-dir>
@@ -736,7 +736,7 @@ exports.PipeMetadata = PipeMetadata;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
  *   `,
@@ -787,7 +787,7 @@ exports.InputMetadata = InputMetadata;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
  *     </interval-dir>
@@ -834,7 +834,7 @@ exports.OutputMetadata = OutputMetadata;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<input [(ngModel)]="prop">`,
  *   directives: [FORM_DIRECTIVES, NgModelStatus]
  * })
@@ -879,7 +879,7 @@ exports.HostBindingMetadata = HostBindingMetadata;
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<button counting>Increment</button>`,
  *   directives: [CountClicks]
  * })

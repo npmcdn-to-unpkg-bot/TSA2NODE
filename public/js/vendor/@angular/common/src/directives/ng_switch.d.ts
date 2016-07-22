@@ -33,7 +33,7 @@ export declare class SwitchView {
  *
  * ```typescript
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <p>Value = {{value}}</p>
  *     <button (click)="inc()">Increment</button>

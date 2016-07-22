@@ -1,6 +1,6 @@
 //tell systemjs just the PATHs of where everything is located
 var map = {
-    'app': 'js/app',
+    'app': 'js/src',
     'rxjs': 'js/vendor/rxjs',
     '@angular': 'js/vendor/@angular',
     'ng2-bootstrap': 'js/vendor/ng2-bootstrap',

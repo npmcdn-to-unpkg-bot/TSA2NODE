@@ -32,7 +32,7 @@ import { NgLocalization } from '../localization';
  * }
  *
  * @Component({
- *    selector: 'app',
+ *    selector: 'src',
  *    providers: [{provide: NgLocalization, useClass: MyLocalization}]
  * })
  * @View({

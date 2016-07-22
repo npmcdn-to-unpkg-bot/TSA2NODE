@@ -476,7 +476,7 @@ var es5_visitors = (function () {
 		else {
 			console.log("Warning: there already is an extend called " + param + ".")
 			if(extendPath.indexOf("tns_modules") === -1) {
-				// app folder will take precedence over tns_modules
+				// src folder will take precedence over tns_modules
 				console.log("Warning: The static binding generator will generate extend from:" + extendPath + " implementation")
 				customExtendsArr.push(lineToWrite)
 				customExtendsArrGlobal.push(param)

@@ -11,7 +11,7 @@ import { Router } from '../router';
 import { ActivatedRoute } from '../router_state';
 import { UrlTree } from '../url_tree';
 /**
- * The RouterLink directive lets you link to specific parts of your app.
+ * The RouterLink directive lets you link to specific parts of your src.
  *
  * Consider the following route configuration:
 
@@ -35,7 +35,7 @@ import { UrlTree } from '../url_tree';
  *
  * The first segment name can be prepended with `/`, `./`, or `../`:
  * * If the first segment begins with `/`, the router will look up the route from the root of the
- app.
+ src.
  * * If the first segment begins with `./`, or doesn't begin with a slash, the router will
  * instead look in the children of the current activated route.
  * * And if the first segment begins with `../`, the router will go up one level.

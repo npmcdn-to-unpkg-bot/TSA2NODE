@@ -21,7 +21,7 @@ export declare const CACHED_TEMPLATE_PROVIDER: Array<any>;
  * <html>
  *   <!-- load Angular script tags here. -->
  *   <body>
- *     <my-app>loading...</my-app>
+ *     <my-src>loading...</my-src>
  *   </body>
  * </html>
  * ```
@@ -37,13 +37,13 @@ export declare const CACHED_TEMPLATE_PROVIDER: Array<any>;
  *
  * {@example core/ts/bootstrap/bootstrap.ts region='bootstrap'}
  *
- * When the app developer invokes `bootstrap()` with the root component `MyApp` as its
+ * When the src developer invokes `bootstrap()` with the root component `MyApp` as its
  * argument, Angular performs the following tasks:
  *
  *  1. It uses the component's `selector` property to locate the DOM element which needs
  *     to be upgraded into the angular component.
  *  2. It creates a new child injector (from the platform injector). Optionally, you can
- *     also override the injector configuration for an app by invoking `bootstrap` with the
+ *     also override the injector configuration for an src by invoking `bootstrap` with the
  *     `componentInjectableBindings` argument.
  *  3. It creates a new `Zone` and connects it to the angular application's change detection
  *     domain instance.
@@ -71,7 +71,7 @@ export declare const CACHED_TEMPLATE_PROVIDER: Array<any>;
  * - `appComponentType`: The root component which should act as the application. This is
  *   a reference to a `Type` which is annotated with `@Component(...)`.
  * - `customProviders`: An additional set of providers that can be added to the
- *   app injector to override default injection behavior.
+ *   src injector to override default injection behavior.
  *
  * Returns a `Promise` of {@link ComponentRef}.
  *

@@ -29,12 +29,12 @@ var ComponentsHelper = (function () {
      * to made this method working you need to add:
      * ```typescript
      *  @Component({
-     *   selector: 'my-app',
+     *   selector: 'my-src',
      *   ...
      *   })
      *  export class MyApp {
      *    constructor(viewContainerRef: ViewContainerRef) {
-     *        // A Default view container ref, usually the app root container ref.
+     *        // A Default view container ref, usually the src root container ref.
      *        // Has to be set manually until we can find a way to get it automatically.
      *        this.viewContainerRef = viewContainerRef;
      *      }
@@ -45,7 +45,7 @@ var ComponentsHelper = (function () {
     ComponentsHelper.prototype.getRootViewContainerRef = function () {
         // The only way for now (by @mhevery)
         // https://github.com/angular/angular/issues/6446#issuecomment-173459525
-        // this is a class of application bootstrap component (like my-app)
+        // this is a class of application bootstrap component (like my-src)
         var classOfRootComponent = this.applicationRef.componentTypes[0];
         // this is an instance of application bootstrap component
         var appInstance = this.injector.get(classOfRootComponent);

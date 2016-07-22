@@ -7,7 +7,7 @@ import { Control, ControlArray, ControlGroup } from './model';
  *
  * ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   viewProviders: [FORM_BINDINGS]
  *   template: `
  *     <form [ngFormModel]="loginForm">

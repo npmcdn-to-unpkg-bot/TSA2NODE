@@ -60,7 +60,7 @@ export var LIFECYCLE_HOOKS_VALUES = [
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <button (click)="value = value + 1">Change MyComponent</button>
  *     <my-cmp [my-prop]="value"></my-cmp>`,
@@ -102,7 +102,7 @@ export class OnChanges {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <button (click)="hasChild = !hasChild">
  *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -174,7 +174,7 @@ export class OnInit {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <button (click)="list.push(list.length)">Push</button>
  *     <button (click)="list.pop()">Pop</button>
@@ -213,7 +213,7 @@ export class DoCheck {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <button (click)="hasChild = !hasChild">
  *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -319,7 +319,7 @@ export class OnDestroy {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <parent-cmp>
  *       <child-cmp where="content"></child-cmp>
@@ -366,7 +366,7 @@ export class AfterContentInit {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `
  *     <parent-cmp>
  *       <button (click)="hasContent = !hasContent">Toggle content child</button>
@@ -419,7 +419,7 @@ export class AfterContentChecked {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<parent-cmp></parent-cmp>`,
  *   directives: [ParentComponent]
  * })
@@ -470,7 +470,7 @@ export class AfterViewInit {
  * }
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   template: `<parent-cmp></parent-cmp>`,
  *   directives: [ParentComponent]
  * })

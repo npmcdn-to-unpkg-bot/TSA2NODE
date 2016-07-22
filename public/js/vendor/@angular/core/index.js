@@ -65,4 +65,4 @@ __export(require('./private_export'));
 __export(require('./src/animation/metadata'));
 var animation_player_1 = require('./src/animation/animation_player');
 exports.AnimationPlayer = animation_player_1.AnimationPlayer;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=src.js.map

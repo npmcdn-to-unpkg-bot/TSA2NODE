@@ -2915,7 +2915,7 @@ var __extends = (this && this.__extends) || function (d, b) {
      *
      * ```typescript
      * @Component({
-     *   selector: 'my-app',
+     *   selector: 'my-src',
      *   directives: [FORM_DIRECTIVES]
      * })
      * class MyApp {}

@@ -29,7 +29,7 @@ export declare const formDirectiveProvider: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <div>
  *       <p>Submit the form to see the data object Angular builds</p>

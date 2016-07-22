@@ -18,7 +18,7 @@ export declare const formArrayNameProvider: any;
  *
  * ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <div>
  *       <h2>Angular FormArray Example</h2>

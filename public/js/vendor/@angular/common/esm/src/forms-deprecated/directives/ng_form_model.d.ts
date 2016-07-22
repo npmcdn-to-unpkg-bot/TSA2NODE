@@ -23,7 +23,7 @@ export declare const formDirectiveProvider: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-app',
+ *   selector: 'my-src',
  *   template: `
  *     <div>
  *       <h2>NgFormModel Example</h2>

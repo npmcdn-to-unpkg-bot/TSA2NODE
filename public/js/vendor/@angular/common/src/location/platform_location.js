@@ -16,7 +16,7 @@
  * platforms
  * that angular supports. For example, the default `PlatformLocation` is {@link
  * BrowserPlatformLocation},
- * however when you run your app in a WebWorker you use {@link WebWorkerPlatformLocation}.
+ * however when you run your src in a WebWorker you use {@link WebWorkerPlatformLocation}.
  *
  * The `PlatformLocation` class is used directly by all implementations of {@link LocationStrategy}
  * when

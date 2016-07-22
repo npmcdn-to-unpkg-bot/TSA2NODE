@@ -28,7 +28,7 @@ export { QueryEncoder, URLSearchParams } from './src/url_search_params';
  * import {HTTP_PROVIDERS, Http} from '@angular/http';
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   providers: [HTTP_PROVIDERS],
  *   template: `
  *     <div>
@@ -183,7 +183,7 @@ export declare const HTTP_BINDINGS: any[];
  * import {JSONP_PROVIDERS, Jsonp} from '@angular/http';
  *
  * @Component({
- *   selector: 'app',
+ *   selector: 'src',
  *   providers: [JSONP_PROVIDERS],
  *   template: `
  *     <div>
