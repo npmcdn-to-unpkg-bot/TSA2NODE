@@ -1,5 +1,0 @@
-{
-  "name": "main web application",
-  "version": "1.0.0",
-  "main": "web.boot.ts"
-}
