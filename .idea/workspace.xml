@@ -2,578 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df80e4b-55de-42ca-9e44-f9e221acdf28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/systemjs.builder.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/app/main-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/app/main-page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/app/main-view-model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application-settings/application-settings-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application-settings/application-settings.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application-settings/application-settings.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application-settings/application-settings.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application-settings/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application/application-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application/application.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application/application.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application/application.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/application/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/camera/camera-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/camera/camera.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/camera/camera.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/camera/camera.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/camera/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/color-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/color.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/color.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/color.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/known-colors.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/known-colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/color/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/connectivity/connectivity-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/connectivity/connectivity.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/connectivity/connectivity.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/connectivity/connectivity.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/connectivity/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/console/console.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/console/console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/console/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css-value/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css-value/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css-value/reworkcss-value.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css/lib/parse/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/css/reworkcss.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable-array/observable-array.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable-array/observable-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable-array/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable/observable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable/observable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/observable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/virtual-array/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/virtual-array/virtual-array.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/data/virtual-array/virtual-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/debugger/InspectorBackendCommands.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/debugger/debugger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/debugger/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/debugger/webinspector.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/declarations.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/es-collections.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/es6-promise.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/es6.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fetch/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fetch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-name-resolver.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-name-resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-system-access.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-system-access.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-system-access.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-system.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/file-system.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/file-system/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/fps-meter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/fps-meter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/fps-native.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/fps-native.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/fps-native.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/fps-meter/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/globals/decorators.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/globals/globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/globals/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/http/http-request.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/http/http-request.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/http/http.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/http/http.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/http/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/image-source/image-source-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/image-source/image-source.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/image-source/image-source.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/image-source/image-source.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/image-source/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/inspector_modules.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/easysax/easysax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/easysax/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/esprima/esprima.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/esprima/esprima.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/esprima/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/polymer-expressions/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/polymer-expressions/path-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/js-libs/polymer-expressions/polymer-expressions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/location/location-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/location/location.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/location/location.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/location/location.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/location/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/module.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Modules/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/TNSWidgets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/platform/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/platform/platform.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/platform/platform.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/platform/platform.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/formatted-string-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/formatted-string.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/formatted-string.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/formatted-string.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/span-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/span.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/span.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/span.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/text.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/text.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/text/text.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/timer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/timer/timer.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/timer/timer.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/timer/timer.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/tns-core-modules.base.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/tns-core-modules.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/tns-core-modules.es6.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/trace/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/trace/trace.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/trace/trace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/action-bar/action-bar-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/action-bar/action-bar.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/action-bar/action-bar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/action-bar/action-bar.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/action-bar/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/activity-indicator/activity-indicator-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/activity-indicator/activity-indicator.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/activity-indicator/activity-indicator.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/activity-indicator/activity-indicator.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/activity-indicator/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/animation-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/animation.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/animation.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/animation.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/keyframe-animation.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/keyframe-animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/animation/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/border/border.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/border/border.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/border/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/binding-builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/builder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/component-builder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/component-builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/special-properties.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/builder/special-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/button/button-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/button/button.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/button/button.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/button/button.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/button/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/content-view/content-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/content-view/content-view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/content-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/bindable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/bindable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/control-state-change.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/control-state-change.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/dependency-observable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/dependency-observable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/proxy.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/weak-event-listener.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/core/weak-event-listener.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/date-picker/date-picker-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/date-picker/date-picker.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/date-picker/date-picker.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/date-picker/date-picker.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/date-picker/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/dialogs/dialogs-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/dialogs/dialogs.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/dialogs/dialogs.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/dialogs/dialogs.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/dialogs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/editable-text-base/editable-text-base-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/editable-text-base/editable-text-base.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/editable-text-base/editable-text-base.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/editable-text-base/editable-text-base.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/editable-text-base/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/enums/enums.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/enums/enums.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/enums/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/activity.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/fragment.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/frame-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/frame.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/frame.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/frame.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/frame/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/gestures/gestures-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/gestures/gestures.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/gestures/gestures.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/gestures/gestures.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/gestures/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/html-view/html-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/html-view/html-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/html-view/html-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/html-view/html-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/html-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image-cache/image-cache-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image-cache/image-cache.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image-cache/image-cache.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image-cache/image-cache.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image/image-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image/image.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image/image.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image/image.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/image/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/label/label-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/label/label.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/label/label.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/label/label.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/label/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/absolute-layout/absolute-layout-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/absolute-layout/absolute-layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/absolute-layout/absolute-layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/absolute-layout/absolute-layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/absolute-layout/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/dock-layout/dock-layout-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/dock-layout/dock-layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/dock-layout/dock-layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/dock-layout/dock-layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/dock-layout/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/grid-layout/grid-layout-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/grid-layout/grid-layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/grid-layout/grid-layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/grid-layout/grid-layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/grid-layout/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout-base-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout-base.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout-base.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout-base.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/stack-layout/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/stack-layout/stack-layout-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/stack-layout/stack-layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/stack-layout/stack-layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/stack-layout/stack-layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/wrap-layout/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/wrap-layout/wrap-layout-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/wrap-layout/wrap-layout.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/wrap-layout/wrap-layout.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/layouts/wrap-layout/wrap-layout.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-picker/list-picker-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-picker/list-picker.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-picker/list-picker.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-picker/list-picker.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-picker/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-view/list-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-view/list-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-view/list-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-view/list-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/list-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/page/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/page/page-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/page/page.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/page/page.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/page/page.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/placeholder/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/placeholder/placeholder-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/placeholder/placeholder.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/placeholder/placeholder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/placeholder/placeholder.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/progress/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/progress/progress-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/progress/progress.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/progress/progress.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/progress/progress.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/proxy-view-container/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/proxy-view-container/proxy-view-container.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/proxy-view-container/proxy-view-container.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/repeater/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/repeater/repeater.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/repeater/repeater.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/scroll-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/scroll-view/scroll-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/scroll-view/scroll-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/scroll-view/scroll-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/scroll-view/scroll-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/search-bar/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/search-bar/search-bar-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/search-bar/search-bar.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/search-bar/search-bar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/search-bar/search-bar.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/segmented-bar/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/segmented-bar/segmented-bar-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/segmented-bar/segmented-bar.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/segmented-bar/segmented-bar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/segmented-bar/segmented-bar.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/slider/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/slider/slider-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/slider/slider.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/slider/slider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/slider/slider.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/background-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/background.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/background.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/background.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/converters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/css-animation-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/css-selector.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/css-selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/font-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/font.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/font.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/font.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/style-property.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/style-property.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/style-scope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/styling.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/styling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/visual-state-constants.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/visual-state-constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/styling/visual-state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/switch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/switch/switch-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/switch/switch.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/switch/switch.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/switch/switch.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/tab-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/tab-view/tab-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/tab-view/tab-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/tab-view/tab-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/tab-view/tab-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base-styler.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base-styler.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base-styler.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-base/text-base.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-field/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-field/text-field-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-field/text-field.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-field/text-field.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-field/text-field.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-view/text-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-view/text-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-view/text-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/text-view/text-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/time-picker/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/time-picker/time-picker-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/time-picker/time-picker.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/time-picker/time-picker.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/time-picker/time-picker.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/fade-transition.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/fade-transition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/fade-transition.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/flip-transition.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/slide-transition.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/slide-transition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/slide-transition.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/transition.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/transition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/transition/transition.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/utils.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/utils.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/web-view/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/web-view/web-view-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/web-view/web-view.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/web-view/web-view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/ui/web-view/web-view.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/debug.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/lazy.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/lazy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/module-merge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/number-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/types.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/utils-common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/utils.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/utils.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/utils/utils.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/weakmap.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/xhr/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/xhr/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/xml/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/xml/xml.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/xml/xml.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src-nativescript/node_modules/tns-core-modules/.baseDir.js" afterPath="$PROJECT_DIR$/src-nativescript/app/mobile-app.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src-web/app/app.component.html" afterPath="$PROJECT_DIR$/src-web/app/src/app.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src-web/app/app.component.ts" afterPath="$PROJECT_DIR$/src-web/app/src/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.js" afterPath="$PROJECT_DIR$/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/boot.js" afterPath="$PROJECT_DIR$/public/js/app/boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/directives/ng_plural.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/directives/ng_plural.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/directives/ng_switch.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/directives/ng_switch.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_control_group.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_control_group.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form_control.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form_control.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form_model.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/directives/ng_form_model.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/form_builder.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/form_builder.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location_strategy.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location_strategy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location_strategy.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/location_strategy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/path_location_strategy.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/path_location_strategy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/directives/ng_plural.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/directives/ng_plural.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/directives/ng_switch.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/directives/ng_switch.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_control_group.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_control_group.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form_control.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form_control.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form_model.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/directives/ng_form_model.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/form_builder.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/form_builder.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location_strategy.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location_strategy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location_strategy.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/location_strategy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/path_location_strategy.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/path_location_strategy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/change_detection/change_detector_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/change_detection/change_detector_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/dynamic_component_loader.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/dynamic_component_loader.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/lifecycle_hooks.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/lifecycle_hooks.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/lifecycle_hooks.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/lifecycle_hooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/profile/profile.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/profile/profile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/profile/profile.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/profile/profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/change_detection/change_detector_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/change_detection/change_detector_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/dynamic_component_loader.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/dynamic_component_loader.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/lifecycle_hooks.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/lifecycle_hooks.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/lifecycle_hooks.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/lifecycle_hooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/profile/profile.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/profile/profile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/profile/profile.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/profile/profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/ng_form.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/ng_form.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/ng_model_group.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/ng_model_group.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_array_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_array_name.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_control_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_control_directive.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_group_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_group_directive.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_group_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/directives/reactive_directives/form_group_name.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/form_builder.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/esm/src/form_builder.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_array_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_array_name.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/http.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/http.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/http.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/http.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/http.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/http.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/http.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/http.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/http.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/http.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/exception_handler.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/exception_handler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/exception_handler.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/exception_handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/collapse/collapse.directive.js" afterPath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/collapse/collapse.directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/utils/components-helper.service.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/utils/components-helper.service.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/utils/components-helper.service.js" afterPath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/components/utils/components-helper.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/spec-bundle.js" afterPath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/spec-bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/systemjs/dist/system-csp-production.src.js" afterPath="$PROJECT_DIR$/public/js/vendor/systemjs/dist/system-csp-production.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/systemjs/dist/system.src.js" afterPath="$PROJECT_DIR$/public/js/vendor/systemjs/dist/system.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/zone.js/dist/zone.js.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/zone.js/dist/zone.js.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/zone.js/lib/zone.ts" afterPath="$PROJECT_DIR$/public/js/vendor/zone.js/lib/zone.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/systemjs.config.js" afterPath="$PROJECT_DIR$/public/systemjs.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-nativescript/platforms/android/build-tools/android-static-binding-generator/ast-parser/visitors/es5-visitors.js" afterPath="$PROJECT_DIR$/src-nativescript/platforms/android/build-tools/android-static-binding-generator/ast-parser/visitors/es5-visitors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-web/app/boot.ts" afterPath="$PROJECT_DIR$/src-web/app/boot.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/install.js" afterPath="$PROJECT_DIR$/tools/install.js" />
     </list>
     <ignored path="TGR.iws" />
@@ -593,7 +23,38 @@
     <favorites_list name="TGR" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/install.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -629,9 +90,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src-web/boot.ts" />
         <option value="$PROJECT_DIR$/src-web/app/boot.ts" />
-        <option value="$PROJECT_DIR$/tools/install.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tools/systemjs.builder.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tools/install.js" />
       </list>
     </option>
   </component>
@@ -702,6 +163,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src-nativescript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -716,7 +245,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="src-nativescript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src-nativescript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -727,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Finished-Setup-Example" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Learning-files/angular2-seed-advanced" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -741,10 +296,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src-web/app/src" />
+      <recent name="$PROJECT_DIR$/src-web/app" />
       <recent name="$PROJECT_DIR$/src-web" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/client" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -817,21 +372,21 @@
       <updated>1468986871934</updated>
       <workItem from="1468986873191" duration="1068000" />
       <workItem from="1469024215001" duration="96000" />
-      <workItem from="1469036601923" duration="33808000" />
+      <workItem from="1469036601923" duration="40568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34972000" />
+    <option name="totallyTimeSpent" value="41732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="-96" width="1280" height="1057" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -857,7 +412,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5040486" order="2" side_tool="true" content_ui="tabs" />
@@ -1141,22 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/install.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/systemjs.builder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1167,8 +706,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-nativescript/app/src/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/install.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>

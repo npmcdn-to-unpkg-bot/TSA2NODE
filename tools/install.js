@@ -3,13 +3,13 @@
 var debugging = false;
 
 var fs = require('fs');
-var cp = require('child_proccess');
+var cp = require('child_process');
 var path = require('path');
 
 var webAppPath = '../src-web/app/src';
 var webAssetsPath = '../src-web/assets';
-var nativescriptAppPath = '../src-nativescript/app/src';
-var nativescriptAssetsPath ='../src-nativescript/app/assets';
+var nativescriptAppPath = '../src-nativescript/app/src/';
+var nativescriptAssetsPath ='../src-nativescript/app/assets/';
 
 
 // Root SymLink Code for Windows
@@ -113,5 +113,66 @@ function createSymLink() {
     }
     fs.symlinkSync(resolve(webAppPath), resolve(nativescriptAppPath), 'junction');
     fs.symlinkSync(resolve(webAssetsPath), resolve(nativescriptAssetsPath), 'junction');
+
+}
+
+/**
+ * Display final help screen!
+ */
+function displayFinalHelp()
+{
+    console.log("------------------------ Angular 2 Seed Advanced is Now Ready ----------------------------");
+    console.log("");
+    console.log("Run your web app with:");
+    console.log("  npm start");
+    console.log("");
+    console.log("Run your Mobile app via NativeScript with:");
+    console.log("  iOS:     npm run start.ios");
+    console.log("  Android: npm run start.android");
+    console.log("");
+    console.log("Run your Desktop app via Electron with:");
+    console.log("  Mac:     npm run start.desktop");
+    console.log("  Windows: npm run start.desktop.windows");
+    console.log("");
+    console.log("-----------------------------------------------------------------------------------------");
+    console.log("");
+}
+
+function splitPath(v) {
+    var x;
+    if (v.indexOf('/') !== -1) {
+        x = v.split('/');
+    } else {
+        x = v.split("\\");
+    }
+    return x;
+}
+
+function resolve(v) {
+    var cwdPath = splitPath(process.argv[1]);
+    // Kill the Script name
+    cwdPath.length = cwdPath.length - 1;
+
+    var resolvePath = splitPath(v);
+
+    // Eliminate a trailing slash/backslash
+    if (cwdPath[cwdPath.length-1] === "") { cwdPath.pop(); }
+
+    if (v[0] === '/' || v[0] === "\\") { cwdPath = []; }
+    for (var i=0;i<resolvePath.length;i++) {
+        if (resolvePath[i] === '.' || resolvePath[i] === "") { continue; }
+        if (resolvePath[i] === '..') { cwdPath.pop(); }
+        else { cwdPath.push(resolvePath[i]); }
+    }
+    if (process.platform === 'win32') {
+        var winResult = cwdPath.join("\\");
+        if (winResult[winResult.length-1] === "\\") { winResult = winResult.substring(0, winResult.length - 1); }
+        return winResult;
+    } else {
+        var result = cwdPath.join('/');
+        if (result[0] !== '/') { result = '/' + result; }
+        if (result[result.length-1] === '/') { result = result.substring(0, result.length - 1); }
+        return result;
+    }
 
 }
